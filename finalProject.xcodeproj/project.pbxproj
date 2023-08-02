@@ -19,6 +19,7 @@
 		BDDB30F32A79167600BC4A0F /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB30F22A79167600BC4A0F /* MyListView.swift */; };
 		BDDB30F72A7942A400BC4A0F /* HorrorQOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB30F62A7942A400BC4A0F /* HorrorQOne.swift */; };
 		BDDB30F92A794D8A00BC4A0F /* HorrorQTWO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB30F82A794D8A00BC4A0F /* HorrorQTWO.swift */; };
+		F87FCA042A7AE69F00939C80 /* HorrorQThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FCA032A7AE69F00939C80 /* HorrorQThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BDDB30F22A79167600BC4A0F /* MyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
 		BDDB30F62A7942A400BC4A0F /* HorrorQOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorrorQOne.swift; sourceTree = "<group>"; };
 		BDDB30F82A794D8A00BC4A0F /* HorrorQTWO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorrorQTWO.swift; sourceTree = "<group>"; };
+		F87FCA032A7AE69F00939C80 /* HorrorQThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorrorQThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				BD2DBC122A7A627700233CD9 /* MovieGenresView.swift */,
 				BDDB30F62A7942A400BC4A0F /* HorrorQOne.swift */,
 				BDDB30F82A794D8A00BC4A0F /* HorrorQTWO.swift */,
+				F87FCA032A7AE69F00939C80 /* HorrorQThree.swift */,
 				BDDB30F02A79165D00BC4A0F /* RecsView.swift */,
 				BDDB30F22A79167600BC4A0F /* MyListView.swift */,
 				BD2DBC142A7A84C600233CD9 /* NavBarTest.swift */,
@@ -172,6 +175,7 @@
 				BDDB30F72A7942A400BC4A0F /* HorrorQOne.swift in Sources */,
 				BDDB30ED2A79162A00BC4A0F /* CategoriesPage.swift in Sources */,
 				BD2DBC152A7A84C600233CD9 /* NavBarTest.swift in Sources */,
+				F87FCA042A7AE69F00939C80 /* HorrorQThree.swift in Sources */,
 				BDDB30F12A79165D00BC4A0F /* RecsView.swift in Sources */,
 				BDDB30DD2A7914FF00BC4A0F /* finalProjectApp.swift in Sources */,
 				BD2DBC132A7A627700233CD9 /* MovieGenresView.swift in Sources */,

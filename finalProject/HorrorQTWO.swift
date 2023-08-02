@@ -29,7 +29,7 @@ struct HorrorQTWO: View {
                     Spacer()
                         .frame(height:200)
                     
-                    NavigationLink(destination: HorrorQTWO()) {
+                    NavigationLink(destination: HorrorQThree()) {
                         Text("1910-1960")
                     }.font(.title2)
                     
@@ -43,7 +43,7 @@ struct HorrorQTWO: View {
                     Spacer()
                         .frame(height:25)
                     
-                    NavigationLink(destination: HorrorQTWO()) {
+                    NavigationLink(destination: HorrorQThree()) {
                         Text("1961-1990")
                     }.font(.title2)
                     
@@ -57,7 +57,7 @@ struct HorrorQTWO: View {
                     Spacer()
                         .frame(height:25)
                     
-                    NavigationLink(destination: HorrorQTWO()) {
+                    NavigationLink(destination: HorrorQThree()) {
                         Text("1991-Now")
                     }.font(.title2)
                     

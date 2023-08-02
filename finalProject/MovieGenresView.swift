@@ -55,8 +55,10 @@ struct MovieGenresView: View {
                     .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)
                     .cornerRadius(/*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+                    
                     Spacer()
                         .frame(height:25)
+                    
                     NavigationLink(destination: HorrorQOne()) {
                         Text("Romance")
                             .font(.title2)

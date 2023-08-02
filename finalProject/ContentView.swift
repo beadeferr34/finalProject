@@ -12,7 +12,10 @@ struct ContentView: View {
         VStack {
             
         }
+        
         .padding()
+        
+        
     }
 }
 

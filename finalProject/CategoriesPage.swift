@@ -14,11 +14,12 @@ struct CategoriesPage: View {
             ZStack {
                 Color(red: 201/255.0, green: 215/255.0, blue: 248/255.0)
                     .ignoresSafeArea()
-                
-                
-               
+
     
                 VStack {
+                    
+                    Spacer()
+                        .frame(height:200)
                     
                     Text("Choose your first category!")
                         .font(.title2)
@@ -43,6 +44,8 @@ struct CategoriesPage: View {
                     .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
                     .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)
                     .cornerRadius(/*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
+                    .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+                    
                     
 
                     Spacer()
@@ -51,13 +54,28 @@ struct CategoriesPage: View {
                     NavigationLink(destination: MovieGenresView()) {
                         Text("Music")
                     }
+                    .font(.title2)
+                    
+                    .frame(width: 300.0, height: 50.0)
+                    .border(/*@START_MENU_TOKEN@*/Color.purple/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+                    .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                    .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)
+                    .cornerRadius(/*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
+                    .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
                     Spacer()
                         .frame(height:25)
 
                     NavigationLink(destination: MovieGenresView()) {
                         Text("Books")
                         
-                    }
+                    } .font(.title2)
+                    
+                        .frame(width: 300.0, height: 50.0)
+                        .border(/*@START_MENU_TOKEN@*/Color.purple/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)
+                        .cornerRadius(/*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
+                        .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
                     
                     
                     Spacer()
@@ -66,7 +84,6 @@ struct CategoriesPage: View {
                 
             }
             
-           
             
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
@@ -99,10 +116,20 @@ struct CategoriesPage: View {
                 }
                 
             }.navigationBarBackButtonHidden(true)
-            RoundedRectangle(cornerRadius: 25)
-                .fill(.white)
-                .frame(width: 1000, height: 50)
-                .shadow(radius: 20)
+            VStack {
+              
+                    Spacer()
+                                .frame(height: 150)
+                                     RoundedRectangle(cornerRadius: 25)
+                                         .fill(.white)
+                                         .frame(width: 1000, height: 0)
+                                         .shadow(radius: 20)
+            }
+            
+//            RoundedRectangle(cornerRadius: 25)
+//                .fill(.white)
+//                .frame(width: 1000, height: 50)
+//                .shadow(radius: 20)
             
             
         }

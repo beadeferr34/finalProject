@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BD2DBC132A7A627700233CD9 /* MovieGenresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DBC122A7A627700233CD9 /* MovieGenresView.swift */; };
 		BD2DBC152A7A84C600233CD9 /* NavBarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DBC142A7A84C600233CD9 /* NavBarTest.swift */; };
+		BD2DBC182A7A896C00233CD9 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = BD2DBC172A7A896C00233CD9 /* FLAnimatedImage */; };
 		BDDB30DD2A7914FF00BC4A0F /* finalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB30DC2A7914FF00BC4A0F /* finalProjectApp.swift */; };
 		BDDB30DF2A7914FF00BC4A0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB30DE2A7914FF00BC4A0F /* ContentView.swift */; };
 		BDDB30E12A7914FF00BC4A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDB30E02A7914FF00BC4A0F /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD2DBC182A7A896C00233CD9 /* FLAnimatedImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +106,9 @@
 			dependencies = (
 			);
 			name = finalProject;
+			packageProductDependencies = (
+				BD2DBC172A7A896C00233CD9 /* FLAnimatedImage */,
+			);
 			productName = finalProject;
 			productReference = BDDB30D92A7914FF00BC4A0F /* finalProject.app */;
 			productType = "com.apple.product-type.application";
@@ -132,6 +137,9 @@
 				Base,
 			);
 			mainGroup = BDDB30D02A7914FF00BC4A0F;
+			packageReferences = (
+				BD2DBC162A7A896C00233CD9 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+			);
 			productRefGroup = BDDB30DA2A7914FF00BC4A0F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -365,6 +373,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD2DBC162A7A896C00233CD9 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD2DBC172A7A896C00233CD9 /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD2DBC162A7A896C00233CD9 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BDDB30D12A7914FF00BC4A0F /* Project object */;
 }

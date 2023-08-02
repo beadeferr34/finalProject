@@ -13,39 +13,45 @@ struct HorrorQOne: View {
         NavigationStack {
             
             ZStack {
-                Color(.systemPink)
+                Color(red: 201/255.0, green: 215/255.0, blue: 248/255.0)
                     .ignoresSafeArea()
+                
+                RoundedRectangle(cornerRadius: 25)
+                    .fill(.white)
+                    .frame(width: 300, height: 300)
+                    .shadow(radius: 20)
+
                 VStack {
-                    Spacer()
-                        .frame(height:400)
+//                    Spacer()
+//                        .frame(height:400)
                     Text("Choose your subgenre!          ")
                         .font(.title2)
                         .foregroundColor(Color(hue: 0.612, saturation: 0.99, brightness: 0.763))
                         .multilineTextAlignment(.center)
                     Spacer()
-                        .frame(height:50)
+                        .frame(height:25)
                     NavigationLink(destination: HorrorQTWO()) {
                         Text("Slasher")
                     }
                     
                     Spacer()
-                        .frame(height:50)
+                        .frame(height:25)
                     NavigationLink(destination: HorrorQTWO()) {
                         Text("Psychological")
                     }
                     Spacer()
-                        .frame(height:50)
+                        .frame(height:25)
                     NavigationLink(destination: HorrorQTWO()) {
                         Text("Indie")
                     }
-                    Spacer()
-                        .frame(height:400)
+//                    Spacer()
+//                        .frame(height:400)
                 }
-                .padding()
-                .background()
-                .cornerRadius(20)
-                .shadow(radius: 20)
-            }
+//                .padding()
+//                .background()
+//                .cornerRadius(20)
+             
+            }.navigationBarBackButtonHidden(true)
         }
       
     }

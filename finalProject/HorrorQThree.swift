@@ -5,6 +5,8 @@
 //  Created by Beatriz De Ferreira on 02/08/2023.
 //
 
+//COMMENT
+
 import SwiftUI
 
 struct HorrorQThree: View {
@@ -29,7 +31,7 @@ struct HorrorQThree: View {
                         Spacer()
                             .frame(height:200)
                         
-                        NavigationLink(destination: HorrorQTWO()) {
+                        NavigationLink(destination: RecsView()) {
                             Text("POC Stories")
                         }.font(.title2)
                         
@@ -43,7 +45,7 @@ struct HorrorQThree: View {
                         Spacer()
                             .frame(height:25)
                         
-                        NavigationLink(destination: HorrorQTWO()) {
+                        NavigationLink(destination: RecsView()) {
                             Text("LGBTQ+ Stories")
                         }.font(.title2)
                         
@@ -57,7 +59,7 @@ struct HorrorQThree: View {
                         Spacer()
                             .frame(height:25)
                         
-                        NavigationLink(destination: HorrorQTWO()) {
+                        NavigationLink(destination: RecsView()) {
                             Text("Women-Led Stories")
                         }.font(.title2)
                         

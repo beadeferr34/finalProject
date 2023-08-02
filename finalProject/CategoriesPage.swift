@@ -22,6 +22,8 @@ struct CategoriesPage: View {
                     
                     Text("Choose your first category!")
                         .font(.title2)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.black)
                         .frame(width: 500, height: 50)
                         .background(Rectangle().fill(Color.white).shadow(radius: 3))
                         .border(Color.gray)
@@ -34,7 +36,9 @@ struct CategoriesPage: View {
                         Text("Movies")
 
                     }
-                    .frame(width: 100.0, height: 50.0)
+                    .font(.title2)
+                    
+                    .frame(width: 300.0, height: 50.0)
                     .border(/*@START_MENU_TOKEN@*/Color.purple/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
                     .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
                     .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)

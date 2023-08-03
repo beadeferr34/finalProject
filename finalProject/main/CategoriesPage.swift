@@ -95,7 +95,7 @@ struct CategoriesPage: View {
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
                     HStack{
-                        NavigationLink(destination: ContentView()) {
+                        NavigationLink(destination: HomePage()) {
                             Image(systemName: "house")
                         }
                         .padding(2)
@@ -115,7 +115,7 @@ struct CategoriesPage: View {
                         }
                         .padding()
                         //This takes you to the recommended list for list.bullet
-                        NavigationLink(destination: RecsView()) {
+                        NavigationLink(destination: ContentView()) {
                             Image(systemName: "list.bullet")
                         }
                         .padding(2)

@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		BD1E4D252A7BAD4300A5F2DF /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E4D242A7BAD4300A5F2DF /* GifImage.swift */; };
 		BD1E4D272A7BAD5E00A5F2DF /* csilla-rodonyi-underwater-019.gif in Resources */ = {isa = PBXBuildFile; fileRef = BD1E4D262A7BAD5E00A5F2DF /* csilla-rodonyi-underwater-019.gif */; };
+		BD1E4D582A7BE5AF00A5F2DF /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E4D572A7BE5AF00A5F2DF /* model.swift */; };
+		BD1E4D5A2A7BE7A300A5F2DF /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E4D592A7BE7A300A5F2DF /* DataBase.swift */; };
+		BD1E4D5C2A7BE98D00A5F2DF /* Content-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E4D5B2A7BE98D00A5F2DF /* Content-ViewModel.swift */; };
+		BD1E4D602A7BF45700A5F2DF /* ContentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E4D5F2A7BF45700A5F2DF /* ContentViews.swift */; };
 		BD2DBC132A7A627700233CD9 /* MovieGenresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DBC122A7A627700233CD9 /* MovieGenresView.swift */; };
 		BD2DBC152A7A84C600233CD9 /* NavBarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DBC142A7A84C600233CD9 /* NavBarTest.swift */; };
 		BD2DBC182A7A896C00233CD9 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = BD2DBC172A7A896C00233CD9 /* FLAnimatedImage */; };
@@ -28,6 +32,10 @@
 /* Begin PBXFileReference section */
 		BD1E4D242A7BAD4300A5F2DF /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
 		BD1E4D262A7BAD5E00A5F2DF /* csilla-rodonyi-underwater-019.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "csilla-rodonyi-underwater-019.gif"; sourceTree = "<group>"; };
+		BD1E4D572A7BE5AF00A5F2DF /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		BD1E4D592A7BE7A300A5F2DF /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		BD1E4D5B2A7BE98D00A5F2DF /* Content-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModel.swift"; sourceTree = "<group>"; };
+		BD1E4D5F2A7BF45700A5F2DF /* ContentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViews.swift; sourceTree = "<group>"; };
 		BD2DBC122A7A627700233CD9 /* MovieGenresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGenresView.swift; sourceTree = "<group>"; };
 		BD2DBC142A7A84C600233CD9 /* NavBarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarTest.swift; sourceTree = "<group>"; };
 		BD3E6E942A7BBBE900DD2893 /* UsFilmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsFilmView.swift; sourceTree = "<group>"; };
@@ -56,6 +64,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD1E4D322A7BDA5F00A5F2DF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		BD1E4D332A7BDA6D00A5F2DF /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		BD1E4D352A7BDAA800A5F2DF /* main */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB30DE2A7914FF00BC4A0F /* ContentView.swift */,
+				BD2DBC122A7A627700233CD9 /* MovieGenresView.swift */,
+				BD1E4D5F2A7BF45700A5F2DF /* ContentViews.swift */,
+				BD2DBC142A7A84C600233CD9 /* NavBarTest.swift */,
+				BDDB30F82A794D8A00BC4A0F /* HorrorQTWO.swift */,
+				BDDB30F62A7942A400BC4A0F /* HorrorQOne.swift */,
+				BDDB30F22A79167600BC4A0F /* MyListView.swift */,
+				BDDB30F02A79165D00BC4A0F /* RecsView.swift */,
+				BD1E4D572A7BE5AF00A5F2DF /* model.swift */,
+				BD1E4D592A7BE7A300A5F2DF /* DataBase.swift */,
+				BD1E4D5B2A7BE98D00A5F2DF /* Content-ViewModel.swift */,
+				BDDB30DC2A7914FF00BC4A0F /* finalProjectApp.swift */,
+				BD3E6E942A7BBBE900DD2893 /* UsFilmView.swift */,
+				F87FCA032A7AE69F00939C80 /* HorrorQThree.swift */,
+				BDDB30EC2A79162A00BC4A0F /* CategoriesPage.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
 		BDDB30D02A7914FF00BC4A0F = {
 			isa = PBXGroup;
 			children = (
@@ -75,17 +119,7 @@
 		BDDB30DB2A7914FF00BC4A0F /* finalProject */ = {
 			isa = PBXGroup;
 			children = (
-				BDDB30DC2A7914FF00BC4A0F /* finalProjectApp.swift */,
-				BDDB30DE2A7914FF00BC4A0F /* ContentView.swift */,
-				BDDB30EC2A79162A00BC4A0F /* CategoriesPage.swift */,
-				BD2DBC122A7A627700233CD9 /* MovieGenresView.swift */,
-				BDDB30F62A7942A400BC4A0F /* HorrorQOne.swift */,
-				BDDB30F82A794D8A00BC4A0F /* HorrorQTWO.swift */,
-				F87FCA032A7AE69F00939C80 /* HorrorQThree.swift */,
-				BDDB30F02A79165D00BC4A0F /* RecsView.swift */,
-				BDDB30F22A79167600BC4A0F /* MyListView.swift */,
-				BD3E6E942A7BBBE900DD2893 /* UsFilmView.swift */,
-				BD2DBC142A7A84C600233CD9 /* NavBarTest.swift */,
+				BD1E4D352A7BDAA800A5F2DF /* main */,
 				BD1E4D262A7BAD5E00A5F2DF /* csilla-rodonyi-underwater-019.gif */,
 				BD1E4D242A7BAD4300A5F2DF /* GifImage.swift */,
 				BDDB30E02A7914FF00BC4A0F /* Assets.xcassets */,
@@ -97,6 +131,8 @@
 		BDDB30E22A7914FF00BC4A0F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				BD1E4D332A7BDA6D00A5F2DF /* New Group1 */,
+				BD1E4D322A7BDA5F00A5F2DF /* New Group */,
 				BDDB30E32A7914FF00BC4A0F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -183,9 +219,13 @@
 				BDDB30F32A79167600BC4A0F /* MyListView.swift in Sources */,
 				BD1E4D252A7BAD4300A5F2DF /* GifImage.swift in Sources */,
 				BDDB30F92A794D8A00BC4A0F /* HorrorQTWO.swift in Sources */,
+				BD1E4D5A2A7BE7A300A5F2DF /* DataBase.swift in Sources */,
 				BDDB30F72A7942A400BC4A0F /* HorrorQOne.swift in Sources */,
+				BD1E4D602A7BF45700A5F2DF /* ContentViews.swift in Sources */,
 				BDDB30ED2A79162A00BC4A0F /* CategoriesPage.swift in Sources */,
 				BD2DBC152A7A84C600233CD9 /* NavBarTest.swift in Sources */,
+				BD1E4D5C2A7BE98D00A5F2DF /* Content-ViewModel.swift in Sources */,
+				BD1E4D582A7BE5AF00A5F2DF /* model.swift in Sources */,
 				F87FCA042A7AE69F00939C80 /* HorrorQThree.swift in Sources */,
 				BDDB30F12A79165D00BC4A0F /* RecsView.swift in Sources */,
 				BDDB30DD2A7914FF00BC4A0F /* finalProjectApp.swift in Sources */,

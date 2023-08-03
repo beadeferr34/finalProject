@@ -19,15 +19,15 @@ struct HorrorQTWO: View {
                     Spacer()
                         .frame(height:200)
                     Text("Favourite horror era?")
-                        .font(.title2)
-                        .fontWeight(.semibold)
+                        .font(.system(size: 25, design: .rounded))
                         .foregroundColor(Color.black)
-                        .frame(width: 500, height: 50)
+                        .frame(width: 500, height: 80)
                         .background(Rectangle().fill(Color.white).shadow(radius: 3))
                         .border(Color.gray)
-                    
+                        .fontWeight(.semibold)
+                        
                     Spacer()
-                        .frame(height:200)
+                        .frame(height:100)
                     
                     NavigationLink(destination: HorrorQThree()) {
                         Text("1910-1960")
@@ -78,7 +78,7 @@ struct HorrorQTWO: View {
                 .toolbar {
                     ToolbarItemGroup(placement: .bottomBar) {
                         HStack{
-                            NavigationLink(destination: RecsView()) {
+                            NavigationLink(destination: ContentView()) {
                                 Image(systemName: "house")
                             }
                             .padding(2)

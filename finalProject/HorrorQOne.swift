@@ -20,15 +20,16 @@ struct HorrorQOne: View {
                     Spacer()
                         .frame(height:200)
                     Text("Choose your subgenre!")
-                        .font(.title2)
-                        .fontWeight(.semibold)
+                        .font(.system(size: 25, design: .rounded))
                         .foregroundColor(Color.black)
-                        .frame(width: 500, height: 50)
+                        .frame(width: 500, height: 80)
                         .background(Rectangle().fill(Color.white).shadow(radius: 3))
                         .border(Color.gray)
+                        .fontWeight(.semibold)
+                        
                     
                     Spacer()
-                        .frame(height:200)
+                        .frame(height:100)
                     
                     NavigationLink(destination: HorrorQTWO()) {
                         Text("Slasher")
@@ -79,7 +80,7 @@ struct HorrorQOne: View {
                 .toolbar {
                     ToolbarItemGroup(placement: .bottomBar) {
                         HStack{
-                            NavigationLink(destination: RecsView()) {
+                            NavigationLink(destination: ContentView()) {
                                 Image(systemName: "house")
                             }
                             .padding(2)

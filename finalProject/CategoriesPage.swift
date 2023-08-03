@@ -12,25 +12,32 @@ struct CategoriesPage: View {
         NavigationStack {
             
             ZStack {
-                Color(red: 201/255.0, green: 215/255.0, blue: 248/255.0)
+               Color(red: 201/255, green: 215/255, blue: 248/255)
                     .ignoresSafeArea()
 
     
                 VStack {
                     
                     Spacer()
-                        .frame(height:200)
+//                        .padding([.top, .trailing], 300)
+//                        .
+//                    Image("animal")
+//                        
+//                        .resizable()
+//                        .frame(width: 250, height: 200)
+                        
                     
-                    Text("Choose your first category!")
-                        .font(.title2)
-                        .fontWeight(.semibold)
+                    Text("Choose your first category!").bold()
+                        .font(.system(size: 25, design: .rounded))
                         .foregroundColor(Color.black)
-                        .frame(width: 500, height: 50)
+                        .frame(width: 500, height: 80)
                         .background(Rectangle().fill(Color.white).shadow(radius: 3))
                         .border(Color.gray)
-                      
+                        .fontWeight(.semibold)
+                        
+                        
 //
-                    Spacer()
+               
                         .frame(height: 200)
 //
                     NavigationLink(destination: MovieGenresView()) {
@@ -88,7 +95,7 @@ struct CategoriesPage: View {
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
                     HStack{
-                        NavigationLink(destination: RecsView()) {
+                        NavigationLink(destination: ContentView()) {
                             Image(systemName: "house")
                         }
                         .padding(2)

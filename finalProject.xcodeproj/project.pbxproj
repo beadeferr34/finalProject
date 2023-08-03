@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1E4D252A7BAD4300A5F2DF /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E4D242A7BAD4300A5F2DF /* GifImage.swift */; };
+		BD1E4D272A7BAD5E00A5F2DF /* csilla-rodonyi-underwater-019.gif in Resources */ = {isa = PBXBuildFile; fileRef = BD1E4D262A7BAD5E00A5F2DF /* csilla-rodonyi-underwater-019.gif */; };
 		BD2DBC132A7A627700233CD9 /* MovieGenresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DBC122A7A627700233CD9 /* MovieGenresView.swift */; };
 		BD2DBC152A7A84C600233CD9 /* NavBarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DBC142A7A84C600233CD9 /* NavBarTest.swift */; };
 		BD2DBC182A7A896C00233CD9 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = BD2DBC172A7A896C00233CD9 /* FLAnimatedImage */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD1E4D242A7BAD4300A5F2DF /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		BD1E4D262A7BAD5E00A5F2DF /* csilla-rodonyi-underwater-019.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "csilla-rodonyi-underwater-019.gif"; sourceTree = "<group>"; };
 		BD2DBC122A7A627700233CD9 /* MovieGenresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGenresView.swift; sourceTree = "<group>"; };
 		BD2DBC142A7A84C600233CD9 /* NavBarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarTest.swift; sourceTree = "<group>"; };
 		BDDB30D92A7914FF00BC4A0F /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,9 +75,11 @@
 			children = (
 				BDDB30DC2A7914FF00BC4A0F /* finalProjectApp.swift */,
 				BDDB30DE2A7914FF00BC4A0F /* ContentView.swift */,
+				BD1E4D242A7BAD4300A5F2DF /* GifImage.swift */,
 				BDDB30EC2A79162A00BC4A0F /* CategoriesPage.swift */,
 				BD2DBC122A7A627700233CD9 /* MovieGenresView.swift */,
 				BDDB30F62A7942A400BC4A0F /* HorrorQOne.swift */,
+				BD1E4D262A7BAD5E00A5F2DF /* csilla-rodonyi-underwater-019.gif */,
 				BDDB30F82A794D8A00BC4A0F /* HorrorQTWO.swift */,
 				F87FCA032A7AE69F00939C80 /* HorrorQThree.swift */,
 				BDDB30F02A79165D00BC4A0F /* RecsView.swift */,
@@ -159,6 +165,7 @@
 			files = (
 				BDDB30E42A7914FF00BC4A0F /* Preview Assets.xcassets in Resources */,
 				BDDB30E12A7914FF00BC4A0F /* Assets.xcassets in Resources */,
+				BD1E4D272A7BAD5E00A5F2DF /* csilla-rodonyi-underwater-019.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +178,7 @@
 			files = (
 				BDDB30DF2A7914FF00BC4A0F /* ContentView.swift in Sources */,
 				BDDB30F32A79167600BC4A0F /* MyListView.swift in Sources */,
+				BD1E4D252A7BAD4300A5F2DF /* GifImage.swift in Sources */,
 				BDDB30F92A794D8A00BC4A0F /* HorrorQTWO.swift in Sources */,
 				BDDB30F72A7942A400BC4A0F /* HorrorQOne.swift in Sources */,
 				BDDB30ED2A79162A00BC4A0F /* CategoriesPage.swift in Sources */,
